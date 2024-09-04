@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Color-changer-byuserInput/static/css/main.7667c30a.css",
+    "main.js": "/Color-changer-byuserInput/static/js/main.87fd852e.js",
+    "index.html": "/Color-changer-byuserInput/index.html",
+    "main.7667c30a.css.map": "/Color-changer-byuserInput/static/css/main.7667c30a.css.map",
+    "main.87fd852e.js.map": "/Color-changer-byuserInput/static/js/main.87fd852e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7667c30a.css",
+    "static/js/main.87fd852e.js"
+  ]
+}
