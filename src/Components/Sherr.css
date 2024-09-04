@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sherr {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: skyblue;
+    justify-content: center;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.head h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between color blocks */
+    margin: 0;
+    padding: 0;
+}
+
+.color {
+    cursor: pointer;
+    width: 100px; /* Adjusted width */
+    height: 100px; /* Adjusted height */
+    border: 2px solid white;
+    transition: transform 0.2s ease; /* Smooth transition for scaling */
+}
+
+.color:hover {
+    transform: scale(1.1); /* Scale up the color block on hover */
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: orange;
+}
+
+.four {
+    background-color: skyblue;
+}
+
+.five {
+    background-color: black;
+}
+
+.six {
+    background-color: white;
+    border: 2px solid #ccc; /* Grey border to make white block visible */
+}
